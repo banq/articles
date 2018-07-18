@@ -7,7 +7,7 @@ import javax.persistence.*;
 @Table(name = "resource_table")
 public class RequestData {
     @Id
-    @GeneratedValue(strategy = GenerationType.TABLE)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "File_id")
     private String id;
 
