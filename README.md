@@ -1,1 +1,1 @@
-this is some codes.
+ some codes from jdon.com
