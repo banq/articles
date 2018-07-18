@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloudbusstreamkafka/cloudbusstreamkafka.iml" filepath="$PROJECT_DIR$/cloudbusstreamkafka/cloudbusstreamkafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysqlspringboot/mysqlspringboot.iml" filepath="$PROJECT_DIR$/mysqlspringboot/mysqlspringboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statemachine/statemachine.iml" filepath="$PROJECT_DIR$/statemachine/statemachine.iml" />
+    </modules>
+  </component>
+</project>
