@@ -7,13 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloudbusstreamkafka" />
+        <module name="modulithsdemo" />
         <module name="mysqlspringboot" />
+        <module name="pengdemo" />
+        <module name="ServiceLoader" />
+        <module name="springsecurity" />
         <module name="statemachine" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloudbusstreamkafka" target="1.8" />
+      <module name="modulithsdemo" target="1.8" />
       <module name="mysqlspringboot" target="1.8" />
+      <module name="pengdemo" target="1.6" />
+      <module name="ServiceLoader" target="1.5" />
+      <module name="springsecurity" target="1.8" />
       <module name="statemachine" target="1.8" />
     </bytecodeTargetLevel>
   </component>

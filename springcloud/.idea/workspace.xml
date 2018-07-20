@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36529200-688f-4775-8d55-2fd8b5313c5f" name="Default" comment="" />
+    <list default="true" id="36529200-688f-4775-8d55-2fd8b5313c5f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceLoader/ServiceLoader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceLoader/ServiceLoader.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceLoader/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceLoader/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceLoader/src/com/sample/CPService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceLoader/src/com/sample/CPServiceImplOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceLoader/src/com/sample/CPServiceImplTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceLoader/src/main/java/com/sample/ServiceLoaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceLoader/src/main/java/com/sample/ServiceLoaderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceLoader/src/main/resources/META-INF/services/com.sample.CPService" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceLoader/src/main/resources/META-INF/services/com.sample.CPService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka11_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver-svn/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver-svn/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver-svn/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver-svn/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver-svn/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver-svn/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver-svn/src/main/java/com/example/configserversvn/ConfigserverSvnApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver-svn/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver-svn/src/test/java/com/example/configserversvn/ConfigserverSvnApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleuth/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleuth/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleuth/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleuth/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleuth/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleuth/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleuth/src/main/java/com/example/sleuth/SleuthApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleuth/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleuth/src/test/java/com/example/sleuth/SleuthApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity/src/main/java/com/example/springsecurity/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springsecurity/src/main/java/com/example/springsecurity/MyController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/registry/target/" />
     <ignored path="$PROJECT_DIR$/producer/target/" />
     <ignored path="$PROJECT_DIR$/consumer/target/" />
@@ -45,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zuulrouter/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="150">
+              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -113,11 +152,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProducerService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProducerService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/producer/src/main/java/com/example/producer/ProducerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="350">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -143,6 +182,9 @@
       <find>span</find>
       <find>sleuth</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -239,104 +281,16 @@
     <option name="width" value="1401" />
     <option name="height" value="981" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feignconsumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feignconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feignconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feignconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feignconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feignconsumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feignconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feignconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sleuth" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="zuulrouter" type="462c0819:PsiDirectoryNode" />
@@ -363,8 +317,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,18 +336,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\train\springboot\springcloud\configserver\src\main\resources\common-config" />
-      <recent name="D:\train\springboot\springcloud\configserver" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.consumer.discoveryclient" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.feignconsumer.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\train\springboot\springcloud\producer\src\main\resources" />
@@ -401,6 +348,13 @@
       <recent name="D:\train\springboot\springcloud\configserver\src\main\resources" />
       <recent name="D:\train\springboot\springcloud\configserver\src\main\resources\META-INF" />
       <recent name="D:\train\springboot\springcloud\circuitbreaker\src\main\java\com\example\circuitbreaker" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.feignconsumer.domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\train\springboot\springcloud\configserver\src\main\resources\common-config" />
+      <recent name="D:\train\springboot\springcloud\configserver" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -678,18 +632,21 @@
       <workItem from="1531834822115" duration="1803000" />
       <workItem from="1531876827573" duration="612000" />
       <workItem from="1531983739764" duration="112000" />
+      <workItem from="1532049461920" duration="154000" />
+      <workItem from="1532049623286" duration="282000" />
+      <workItem from="1532050017009" duration="209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96645000" />
+    <option name="totallyTimeSpent" value="97290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012126" side_tool="true" weight="0.32888147" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012126" side_tool="true" weight="0.3277592" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.19159256" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -704,21 +661,21 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.4724541" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20533548" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21180275" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="7" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4987874" weight="0.32888147" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32888147" />
@@ -840,13 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configserver-svn/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/configserver-svn/pom.xml" />
     <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/common-config/PengProducerService.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -861,20 +812,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configserver-svn/src/main/java/com/example/configserversvn/ConfigserverSvnApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configserver-svn/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/configserver-svn/src/main/java/com/example/configserversvn/ConfigserverSvnApplication.java" />
+    <entry file="file://$PROJECT_DIR$/configserver-svn/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/configserver-jdbc/src/main/java/com/example/configserverjdbc/ConfigserverJdbcApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -919,13 +858,7 @@
     <entry file="file://$PROJECT_DIR$/../../event-sourcing-microservices-basics-master/edge-service/src/main/resources/bootstrap.yml" />
     <entry file="file://$PROJECT_DIR$/../../event-sourcing-microservices-basics-master/aggregate-service/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/../../event-sourcing-microservices-basics-master/aggregate-service/src/main/java/io/example/AggregateServiceApplication.java" />
-    <entry file="file://$PROJECT_DIR$/sleuth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sleuth/pom.xml" />
     <entry file="file://$PROJECT_DIR$/feignconsumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1225">
@@ -937,13 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuulrouter/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -994,8 +920,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/producer/src/main/java/com/example/producer/ProducerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="350">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulrouter/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/cloudbusstreamkafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jenkinsplugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modulithsdemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mysqlspringboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springsecurity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/statemachine" charset="UTF-8" />
   </component>
 </project>

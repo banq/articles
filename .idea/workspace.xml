@@ -1,41 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c84bd41-0053-4942-a548-07ecc0fc8136" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/CloudbusstreamkafkaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/Greetings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/StreamsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudbusstreamkafka/src/test/java/com/example/cloudbusstreamkafka/CloudbusstreamkafkaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/ApplicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/ApplicationDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/ApplicationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/MysqlspringbootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/RequestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlspringboot/src/test/java/com/example/mysqlspringboot/MysqlspringbootApplicationTests.java" afterDir="false" />
+    <list default="true" id="4c84bd41-0053-4942-a548-07ecc0fc8136" name="Default" comment="https://www.jdon.com/springcloud/spring-cloud-streams-kafka-demo.html">
+      <change afterPath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tngtech_archunit_archunit_0_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tngtech_archunit_archunit_junit_0_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_olivergierke_moduliths_moduliths_core_1_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_olivergierke_moduliths_moduliths_test_1_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceLoader/ServiceLoader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceLoader/ServiceLoader.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceLoader/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceLoader/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceLoader/src/com/sample/CPService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceLoader/src/com/sample/CPServiceImplOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceLoader/src/com/sample/CPServiceImplTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceLoader/src/main/java/com/sample/ServiceLoaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceLoader/src/main/java/com/sample/ServiceLoaderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceLoader/src/main/resources/META-INF/services/com.sample.CPService" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceLoader/src/main/resources/META-INF/services/com.sample.CPService" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka11_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/configserver-svn/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/configserver-svn/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/configserver-svn/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/configserver-svn/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/configserver-svn/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/configserver-svn/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/configserver-svn/src/main/java/com/example/configserversvn/ConfigserverSvnApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/configserver-svn/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/configserver-svn/src/test/java/com/example/configserversvn/ConfigserverSvnApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/sleuth/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/sleuth/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/sleuth/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/sleuth/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/sleuth/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/sleuth/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/sleuth/src/main/java/com/example/sleuth/SleuthApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/sleuth/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud/sleuth/src/test/java/com/example/sleuth/SleuthApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springsecurity/src/main/java/com/example/springsecurity/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springsecurity/src/main/java/com/example/springsecurity/MyController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cloudbusstreamkafka/target/" />
     <ignored path="$PROJECT_DIR$/statemachine/target/" />
     <ignored path="$PROJECT_DIR$/mysqlspringboot/target/" />
+    <ignored path="$PROJECT_DIR$/ServiceLoader/target/" />
+    <ignored path="$PROJECT_DIR$/jenkinsplugin/target/" />
+    <ignored path="$PROJECT_DIR$/springsecurity/target/" />
+    <ignored path="$PROJECT_DIR$/modulithsdemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +62,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MachineConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statemachine/src/main/java/com/example/statemachine/MachineConfiguration.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulithsdemo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="48">
+              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyComponentA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/moduleA/MyComponentA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,29 +83,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlspringboot/pom.xml">
+      <file leaf-file-name="ModulithsApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/ModulithsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="41" column="21" selection-start-line="29" selection-start-column="5" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="100">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MysqlspringbootApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/MysqlspringbootApplication.java">
+      <file leaf-file-name="Module.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/de/olivergierke/moduliths/moduliths-core/1.0.0-SNAPSHOT/moduliths-core-1.0.0-20180719.200000-3.jar!/de/olivergierke/moduliths/Module.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="200">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/ApplicationController.java">
+      <file leaf-file-name="MyComponentB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/moduleB/MyComponentB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="200">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModuleATest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulithsdemo/src/test/java/com/example/moduliths/moduleA/ModuleATest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModuleBTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulithsdemo/src/test/java/com/example/moduliths/moduleB/ModuleBTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,52 +138,24 @@
         </entry>
       </file>
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/modulithsdemo/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ModulithsApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modulithsdemo/src/test/java/com/example/moduliths/ModulithsApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="50">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/resources/schema.sql">
+      <file leaf-file-name="ModuleTest.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/de/olivergierke/moduliths/moduliths-test/1.0.0-SNAPSHOT/moduliths-test-1.0.0-20180719.200000-3.jar!/de/olivergierke/moduliths/test/ModuleTest.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="40" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/ApplicationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="38" column="1" selection-start-line="11" selection-end-line="38" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/ApplicationDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="6" selection-start-line="6" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestData.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/RequestData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="-355">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -157,6 +179,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -168,7 +193,6 @@
         <option value="$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsController.java" />
         <option value="$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsListener.java" />
         <option value="$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/CloudbusstreamkafkaApplication.java" />
-        <option value="$PROJECT_DIR$/cloudbusstreamkafka/pom.xml" />
         <option value="$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/Greetings.java" />
         <option value="$PROJECT_DIR$/statemachine/src/main/java/com/example/statemachine/BookStates.java" />
         <option value="$PROJECT_DIR$/statemachine/src/main/java/com/example/statemachine/BookEvents.java" />
@@ -183,6 +207,30 @@
         <option value="$PROJECT_DIR$/mysqlspringboot/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/mysqlspringboot/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/RequestData.java" />
+        <option value="$PROJECT_DIR$/cloudbusstreamkafka/pom.xml" />
+        <option value="$PROJECT_DIR$/statemachine/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ServiceLoader/src/com/sample/CPService.java" />
+        <option value="$PROJECT_DIR$/ServiceLoader/src/com/sample/CPServiceImplOne.java" />
+        <option value="$PROJECT_DIR$/ServiceLoader/src/com/sample/CPServiceImplTwo.java" />
+        <option value="$PROJECT_DIR$/ServiceLoader/pom.xml" />
+        <option value="$PROJECT_DIR$/ServiceLoader/src/main/java/com/sample/CPServiceImplOne.java" />
+        <option value="$PROJECT_DIR$/ServiceLoader/src/main/java/com/sample/ServiceLoaderDemo.java" />
+        <option value="$PROJECT_DIR$/ServiceLoader/src/main/resources/META-INF/services/com.sample.CPService" />
+        <option value="$PROJECT_DIR$/jenkinsplugin/readme.txt" />
+        <option value="$PROJECT_DIR$/springsecurity/src/main/java/com/example/springsecurity/MyController.java" />
+        <option value="$PROJECT_DIR$/springsecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/springsecurity/src/main/java/com/example/springsecurity/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/modulithsdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/moduleB/internal/SupportingComponentB.java" />
+        <option value="$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/moduleB/internal/InternalComponentB.java" />
+        <option value="$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/moduleB/MyComponentB.java" />
+        <option value="$PROJECT_DIR$/modulithsdemo/src/test/java/com/example/moduliths/moduleA/ModuleATest.java" />
+        <option value="$PROJECT_DIR$/modulithsdemo/src/test/java/com/example/moduliths/moduleB/ModuleBTest.java" />
+        <option value="$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/Controller.java" />
+        <option value="$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/moduleA/MyComponentA.java" />
+        <option value="$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/ModulithsApplication.java" />
+        <option value="$PROJECT_DIR$/modulithsdemo/src/test/java/com/example/moduliths/ModulithsApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -197,6 +245,11 @@
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="jenkins" />
+      </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -214,59 +267,28 @@
     <option name="width" value="1401" />
     <option name="height" value="981" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="springcloudstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysqlspringboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysqlspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysqlspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysqlspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysqlspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mysqlspringboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysqlspringboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="modulithsdemo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,13 +299,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.7" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modulithsdemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="EclipseFormatter" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\temp\springcloudstudy\articles\modulithsdemo\src\main\java\com\example\moduliths\moduleB" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -297,12 +324,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MysqlspringbootApplication">
+  <component name="RunManager" selected="JUnit.ModuleATest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
+    <configuration name="ServiceLoaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.ServiceLoaderDemo" />
+      <module name="ServiceLoader" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ModuleATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="modulithsdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.moduliths.moduleA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.moduliths.moduleA" />
+      <option name="MAIN_CLASS_NAME" value="com.example.moduliths.moduleA.ModuleATest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ModuleBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="modulithsdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.moduliths.moduleB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.moduliths.moduleB" />
+      <option name="MAIN_CLASS_NAME" value="com.example.moduliths.moduleB.ModuleBTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ModulithsApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="modulithsdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.moduliths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.moduliths" />
+      <option name="MAIN_CLASS_NAME" value="com.example.moduliths.ModulithsApplicationTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -324,9 +431,17 @@
       <module name="cloudbusstreamkafka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloudbusstreamkafka.CloudbusstreamkafkaApplication" />
     </configuration>
+    <configuration name="ModulithsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="modulithsdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.moduliths.ModulithsApplication" />
+    </configuration>
     <configuration name="MysqlspringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mysqlspringboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mysqlspringboot.MysqlspringbootApplication" />
+    </configuration>
+    <configuration name="SpringsecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springsecurity" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springsecurity.SpringsecurityApplication" />
     </configuration>
     <configuration name="StatemachineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="statemachine" />
@@ -358,7 +473,21 @@
       <item itemvalue="Spring Boot.CloudbusstreamkafkaApplication" />
       <item itemvalue="Spring Boot.StatemachineApplication" />
       <item itemvalue="Spring Boot.MysqlspringbootApplication" />
+      <item itemvalue="Spring Boot.SpringsecurityApplication" />
+      <item itemvalue="Spring Boot.ModulithsApplication" />
+      <item itemvalue="Application.ServiceLoaderDemo" />
+      <item itemvalue="JUnit.ModuleATest" />
+      <item itemvalue="JUnit.ModuleBTest" />
+      <item itemvalue="JUnit.ModulithsApplicationTests" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ModuleATest" />
+        <item itemvalue="JUnit.ModulithsApplicationTests" />
+        <item itemvalue="JUnit.ModuleBTest" />
+        <item itemvalue="Application.ServiceLoaderDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -374,20 +503,112 @@
       <workItem from="1531640900219" duration="2868000" />
       <workItem from="1531717918056" duration="2291000" />
       <workItem from="1531884809155" duration="3931000" />
-      <workItem from="1531892246960" duration="278000" />
+      <workItem from="1531892246960" duration="1056000" />
+      <workItem from="1531898542091" duration="1193000" />
+      <workItem from="1531905863937" duration="999000" />
+      <workItem from="1531971733848" duration="526000" />
+      <workItem from="1531978847044" duration="27000" />
+      <workItem from="1531983196746" duration="2121000" />
+      <workItem from="1532009854601" duration="6000" />
+      <workItem from="1532049048434" duration="1163000" />
+      <workItem from="1532057638263" duration="3105000" />
+      <workItem from="1532063988442" duration="122000" />
+      <workItem from="1532064346218" duration="6280000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1531892768668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531892768668</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1531892801499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531892801499</updated>
+    </task>
+    <task id="LOCAL-00003" summary="https://www.jdon.com/springcloud/spring-cloud-streams-kafka-demo.html">
+      <created>1531892911459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531892911459</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&#10;https://www.jdon.com/49606">
+      <created>1531892955311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531892955311</updated>
+    </task>
+    <task id="LOCAL-00005" summary="jdon.com">
+      <created>1531893085753</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531893085753</updated>
+    </task>
+    <task id="LOCAL-00006" summary="jenkin插件开发案例">
+      <created>1531972244189</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531972244189</updated>
+    </task>
+    <task id="LOCAL-00007" summary="https://github.com/olivergierke/moduliths">
+      <created>1532071064640</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1532071064640</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ModulithsApplicationTests - 2018.07.20 at 14h 33m 38s.xml">
+      <configuration name="ModulithsApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModulithsApplicationTests - 2018.07.20 at 14h 34m 25s.xml">
+      <configuration name="ModulithsApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModulithsApplicationTests - 2018.07.20 at 14h 35m 06s.xml">
+      <configuration name="ModulithsApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModulithsApplicationTests - 2018.07.20 at 14h 35m 32s.xml">
+      <configuration name="ModulithsApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModulithsApplicationTests - 2018.07.20 at 14h 36m 05s.xml">
+      <configuration name="ModulithsApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModuleATest - 2018.07.20 at 14h 36m 22s.xml">
+      <configuration name="ModuleATest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModuleATest - 2018.07.20 at 14h 37m 00s.xml">
+      <configuration name="ModuleATest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModulithsApplicationTests - 2018.07.20 at 14h 37m 24s.xml">
+      <configuration name="ModulithsApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModulithsApplicationTests - 2018.07.20 at 14h 38m 17s.xml">
+      <configuration name="ModulithsApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModuleATest - 2018.07.20 at 15h 09m 58s.xml">
+      <configuration name="ModuleATest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10832000" />
+    <option name="totallyTimeSpent" value="27152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5004042" side_tool="true" visible="true" weight="0.32943144" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.16006467" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.502021" side_tool="true" weight="0.44147158" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.105092965" />
+      <window_info anchor="right" id="CDI" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -395,24 +616,24 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39966556" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4995958" weight="0.3277592" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.442404" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4995958" visible="true" weight="0.32943144" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4987874" weight="0.32943144" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497979" visible="true" weight="0.43645486" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27405012" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25383994" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32888147" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -427,202 +648,21 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="https://www.jdon.com/springcloud/spring-cloud-streams-kafka-demo.html" />
+    <MESSAGE value="&#10;https://www.jdon.com/49606" />
+    <MESSAGE value="jdon.com" />
+    <MESSAGE value="jenkin插件开发案例" />
+    <MESSAGE value="https://github.com/olivergierke/moduliths" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://github.com/olivergierke/moduliths" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/ApplicationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" selection-start-line="6" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/RequestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/Greetings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="23" column="1" selection-start-line="6" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statemachine/src/main/java/com/example/statemachine/StatemachineApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statemachine/src/main/java/com/example/statemachine/BookStates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="1" selection-start-line="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statemachine/src/main/java/com/example/statemachine/LoggingMashineListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statemachine/src/main/java/com/example/statemachine/LoggingUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statemachine/src/main/java/com/example/statemachine/BookEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/CloudbusstreamkafkaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statemachine/src/main/java/com/example/statemachine/MachineConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsStreams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="1" selection-start-line="7" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/StreamsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="1" selection-start-line="6" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/CloudbusstreamkafkaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/Greetings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="6" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsStreams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="7" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/StreamsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/Greetings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/src/main/java/com/example/cloudbusstreamkafka/GreetingsStreams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -662,13 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -725,9 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,31 +777,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/ApplicationDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="150">
           <caret line="6" selection-start-line="6" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/ApplicationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
+        <state relative-caret-position="950">
           <caret line="38" column="1" selection-start-line="11" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="575">
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,8 +819,215 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysqlspringboot/src/main/java/com/example/mysqlspringboot/RequestData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudbusstreamkafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statemachine/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="22" selection-start-column="22" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceLoader/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceLoader/src/main/java/com/sample/CPServiceImplOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceLoader/src/main/java/com/sample/CPServiceImplTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceLoader/src/main/resources/META-INF/services/com.sample.CPService">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceLoader/src/main/java/com/sample/CPService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceLoader/src/main/java/com/sample/ServiceLoaderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="9" selection-start-line="7" selection-start-column="6" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkinsplugin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkinsplugin/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springsecurity/src/main/java/com/example/springsecurity/SecurityConfig.java" />
+    <entry file="file://$PROJECT_DIR$/springsecurity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="21" selection-start-line="29" selection-start-column="6" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springsecurity/src/main/java/com/example/springsecurity/SpringsecurityApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springsecurity/src/main/java/com/example/springsecurity/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/moduleB/internal/SupportingComponentB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/moduleB/internal/InternalComponentB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/olivergierke/moduliths/moduliths-test/1.0.0-SNAPSHOT/moduliths-test-1.0.0-20180719.200000-3.jar!/de/olivergierke/moduliths/test/ModuleTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulithsdemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/olivergierke/moduliths/moduliths-core/1.0.0-SNAPSHOT/moduliths-core-1.0.0-20180719.200000-3.jar!/de/olivergierke/moduliths/Module.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/moduleB/MyComponentB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/moduleA/MyComponentA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulithsdemo/src/test/java/com/example/moduliths/ModulithsApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulithsdemo/src/test/java/com/example/moduliths/moduleB/ModuleBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulithsdemo/src/test/java/com/example/moduliths/moduleA/ModuleATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulithsdemo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulithsdemo/src/main/java/com/example/moduliths/ModulithsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -820,7 +1048,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -855,7 +1083,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloudbusstreamkafka</last-edited>
+          <last-edited>modulithsdemo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -880,6 +1108,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

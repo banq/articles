@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ServiceLoader/ServiceLoader.iml" filepath="$PROJECT_DIR$/ServiceLoader/ServiceLoader.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudbusstreamkafka/cloudbusstreamkafka.iml" filepath="$PROJECT_DIR$/cloudbusstreamkafka/cloudbusstreamkafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modulithsdemo/modulithsdemo.iml" filepath="$PROJECT_DIR$/modulithsdemo/modulithsdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mysqlspringboot/mysqlspringboot.iml" filepath="$PROJECT_DIR$/mysqlspringboot/mysqlspringboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jenkinsplugin/pengdemo.iml" filepath="$PROJECT_DIR$/jenkinsplugin/pengdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springsecurity/springsecurity.iml" filepath="$PROJECT_DIR$/springsecurity/springsecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/statemachine/statemachine.iml" filepath="$PROJECT_DIR$/statemachine/statemachine.iml" />
     </modules>
   </component>

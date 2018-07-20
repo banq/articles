@@ -6,6 +6,10 @@
         <option value="$PROJECT_DIR$/cloudbusstreamkafka/pom.xml" />
         <option value="$PROJECT_DIR$/statemachine/pom.xml" />
         <option value="$PROJECT_DIR$/mysqlspringboot/pom.xml" />
+        <option value="$PROJECT_DIR$/ServiceLoader/pom.xml" />
+        <option value="$PROJECT_DIR$/jenkinsplugin/pom.xml" />
+        <option value="$PROJECT_DIR$/springsecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/modulithsdemo/pom.xml" />
       </list>
     </option>
   </component>

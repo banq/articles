@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/feignconsumer/feignconsumer.iml" filepath="$PROJECT_DIR$/feignconsumer/feignconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/producer/producer.iml" filepath="$PROJECT_DIR$/producer/producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/registry/registry.iml" filepath="$PROJECT_DIR$/registry/registry.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sleuth/sleuth.iml" filepath="$PROJECT_DIR$/sleuth/sleuth.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuulrouter/zuulrouter.iml" filepath="$PROJECT_DIR$/zuulrouter/zuulrouter.iml" />
     </modules>
   </component>

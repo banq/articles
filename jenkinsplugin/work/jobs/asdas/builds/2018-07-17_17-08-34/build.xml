@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+  </actions>
+  <number>1</number>
+  <startTime>1531818514249</startTime>
+  <result>SUCCESS</result>
+  <duration>689</duration>
+  <charset>GBK</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\train\plugin\pengdemo\work\jobs\asdas\workspace</workspace>
+  <hudsonVersion>1.580.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
