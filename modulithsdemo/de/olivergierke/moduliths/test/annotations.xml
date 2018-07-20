@@ -1,0 +1,5 @@
+<root>
+    <item name='de.olivergierke.moduliths.test.ModuleTest'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
