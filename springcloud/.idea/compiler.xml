@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="circuitbreaker" />
+        <module name="configserver" />
+        <module name="configserver-jdbc" />
+        <module name="consumer" />
+        <module name="feignconsumer" />
+        <module name="producer" />
+        <module name="registry" />
+        <module name="sleuth" />
+        <module name="zuulrouter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="circuitbreaker" target="1.8" />
+      <module name="configserver" target="1.8" />
+      <module name="configserver-jdbc" target="1.8" />
+      <module name="configserver-svn" target="1.8" />
+      <module name="consumer" target="1.8" />
+      <module name="feignconsumer" target="1.8" />
+      <module name="kafkacloudbus" target="1.8" />
+      <module name="producer" target="1.8" />
+      <module name="registry" target="1.8" />
+      <module name="sleuth" target="1.8" />
+      <module name="zuulrouter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
