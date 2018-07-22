@@ -11,7 +11,7 @@ create a proejct , and in build drop-down menu you will find :HelloWorldBuilder
 
 
 Jenkins插件原理：
-
+---------------
 1.它的插件是分两个部分，显示部分和运行控制部分，显示部分继承RootAction 定义菜单名称和url；控制部分继承Builder，在perfor方法里定义运行内容；在控制部分也有定义JSP参数输入的。
 
 2.插件打包成jar包，后缀名要改成.hpi或jpi，或通过web浏览器上传，或者直接放到它的plug-in目录下，或者启动Jenkins时指定一下。
