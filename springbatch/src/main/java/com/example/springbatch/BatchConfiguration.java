@@ -48,8 +48,8 @@ public class BatchConfiguration {
 //		final DriverManagerDataSource dataSource = new DriverManagerDataSource();
 //		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 //		dataSource.setUrl("jdbc:mysql://localhost:3306/temp");
-//		dataSource.setUsername("banq");
-//		dataSource.setPassword("225034ba");
+//		dataSource.setUsername("root");
+//		dataSource.setPassword("root");
 //
 //		return dataSource;
 //	}

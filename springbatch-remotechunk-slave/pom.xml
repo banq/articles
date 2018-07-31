@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>moduliths</artifactId>
+    <artifactId>springbatch-remotechunk-slave</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>moduliths</name>
+    <name>springbatch-remotechunk-slave</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -29,53 +29,41 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-activemq</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-batch</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-integration</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.integration</groupId>
+            <artifactId>spring-integration-jms</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.batch</groupId>
+            <artifactId>spring-batch-integration</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        <!-- For the @Modulith annotation -->
         <dependency>
-        <groupId>de.olivergierke.moduliths</groupId>
-        <artifactId>moduliths-core</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-
-        <!-- Test support -->
-        <dependency>
-        <groupId>de.olivergierke.moduliths</groupId>
-        <artifactId>moduliths-test</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
-        <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>de.olivergierke.moduliths</groupId>
-            <artifactId>moduliths-test</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.olivergierke.moduliths</groupId>
-            <artifactId>moduliths-test</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
+            <groupId>org.springframework.batch</groupId>
+            <artifactId>spring-batch-test</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
-    <repositories>
-        <repository>
-            <id>spring-snapshots</id>
-            <url>https://repo.spring.io/libs-snapshot</url>
-        </repository>
 
-    </repositories>
     <build>
         <plugins>
             <plugin>
