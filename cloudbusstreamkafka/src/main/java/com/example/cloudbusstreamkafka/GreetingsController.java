@@ -22,4 +22,5 @@ public class GreetingsController {
                 .build();
         greetingsService.sendGreeting(greetings);
     }
+
 }
