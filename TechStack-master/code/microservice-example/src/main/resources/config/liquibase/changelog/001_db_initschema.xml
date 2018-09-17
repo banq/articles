@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+    <property name="now" value="now()" dbms="mysql"/>
+    <property name="autoIncrement" value="true"/>
+
+    <changeSet id="001" author="example">
+        <createTable tableName="example_user" remarks="user table">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="uid" type="varchar(50)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="user_id" type="varchar(50)" remarks="user id"/>
+            <column name="user_name" type="varchar(50)" remarks="user name"/>
+            <column name="email" type="varchar(50)" remarks="email"/>
+            <column name="type" type="varchar(50)" remarks="user type"/>
+        </createTable>
+        <loadData tableName="example_user" encoding="UTF-8" file="config/liquibase/data/user.csv" separator=";"/>
+
+        <createTable tableName="example_role" remarks="role">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="uid" type="varchar(50)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="role_name" type="varchar(50)" remarks="role name"/>
+            <column name="permission" type="varchar(50)" remarks="role permission"/>
+        </createTable>
+        <loadData tableName="example_role" encoding="UTF-8" file="config/liquibase/data/role.csv" separator=";"/>
+
+
+        <createTable tableName="example_user_role" remarks="user role relationship">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="uid" type="varchar(50)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="user_id" type="varchar(50)" remarks="user id"/>
+            <column name="role_uid" type="varchar(50)" remarks="role uid"/>
+        </createTable>
+        <loadData tableName="example_user_role" encoding="UTF-8" file="config/liquibase/data/user_role.csv"
+                  separator=";"/>
+
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+    <property name="now" value="now()" dbms="mysql"/>
+    <property name="autoIncrement" value="true"/>
+
+    <changeSet id="001" author="xer86">
+        <createTable tableName="uum_org_dept" remarks="HR组织部门信息表">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="uum_org_dept_uuid" type="varchar(50)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="uum_org_dept_id" type="varchar(50)" remarks="HR组织部门编码"/>
+            <column name="uum_org_dept_name" type="varchar(50)" remarks="HR组织部门名称"/>
+            <column name="uum_org_dept_parent_id" type="varchar(50)" remarks="HR某部门上级部门编码"/>
+            <column name="uum_org_dept_level_trace" type="varchar(400)" remarks="HR部门从根部门到该部门的所有部门路径，以-符号隔开"/>
+            <column name="uum_org_dept_leader_id" type="varchar(100)" remarks="部门负责人工号，若为多个负责人，则用半角"/>
+            <column name="uum_org_dept_address_id" type="varchar(200)" remarks="部门地址编码，非必填，需根据实际情况"/>
+            <column name="uum_org_dept_scale" type="varchar(50)" remarks="部门规模，预留字段非必填"/>
+            <column name="uum_org_dept_type" type="varchar(50)" remarks="部门类型，预留字段非必填"/>
+            <column name="uum_org_dept_create_time" type="date" remarks="信息创建时间"/>
+            <column name="uum_org_dept_update_time" type="date" remarks="信息更新时间"/>
+        </createTable>
+        <!--loadData tableName="example_user" encoding="UTF-8" file="config/liquibase/data/user.csv" separator=";"/-->
+
+        <createTable tableName="uum_org_staff" remarks="HR组织员工信息表">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="uum_org_stafff_uuid" type="varchar(50)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="uum_org_staff_id" type="varchar(20)" remarks="HR员工工号"/>
+            <column name="uum_org_staff_name" type="varchar(40)" remarks="HR员工姓名"/>
+            <column name="uum_org_staff_alias" type="varchar(40)" remarks="HR员工别名"/>
+            <column name="uum_org_staff_phone" type="varchar(40)" remarks="HR员工固定电话，多个电话以半角,逗号分隔"/>
+            <column name="uum_org_staff_mobile" type="varchar(40)" remarks="HR员工移动电话，多个电话以半角,逗号分隔"/>
+            <column name="uum_org_staff_age" type="int" remarks="HR员工年龄"/>
+            <column name="uum_org_staff_birthday" type="varchar(20)" remarks="HR员工生日"/>
+            <column name="uum_org_staff_email" type="varchar(100)" remarks="HR员工email邮箱，多个邮箱以半角,逗号分隔"/>
+            <column name="uum_org_staff_home_address" type="varchar(200)" remarks="HR员工家庭地址，多个以半角,逗号分隔"/>
+            <column name="uum_org_staff_work_address" type="varchar(200)" remarks="HR员工办公地址，多个以半角,逗号分隔"/>
+            <column name="uum_org_staff_gender" type="varchar(10)" remarks="HR员工性别"/>
+            <column name="uum_org_staff_marriage" type="varchar(10)" remarks="HR员工是否已婚"/>
+            <column name="uum_org_staff_create_time" type="date" remarks="信息创建时间"/>
+            <column name="uum_org_staff_update_time" type="date" remarks="信息更新时间"/>
+        </createTable>
+        <!--loadData tableName="example_role" encoding="UTF-8" file="config/liquibase/data/role.csv" separator=";"/-->
+
+
+        <createTable tableName="uum_org_job" remarks="HR组织岗位信息表">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="uum_org_job_uuid" type="varchar(50)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="uum_org_job_id" type="varchar(50)" remarks="岗位编号"/>
+            <column name="uum_org_job_dept_id" type="varchar(50)" remarks="岗位所在部门id"/>
+            <column name="uum_org_job_name" type="varchar(100)" remarks="岗位名称"/>
+            <column name="uum_org_job_level" type="int" remarks="岗位层级"/>
+            <column name="uum_org_job_create_time" type="date" remarks="信息创建时间"/>
+            <column name="uum_org_job_update_time" type="date" remarks="信息更新时间"/>
+        </createTable>
+        <!--loadData tableName="example_user_role" encoding="UTF-8" file="config/liquibase/data/user_role.csv" separator=";"/-->
+
+        <createTable tableName="uum_org_staff_dept" remarks="HR员工与部门关系表">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="uum_org_staff_dept_uuid" type="varchar(50)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="uum_org_staff_dept_staff_id" type="varchar(20)" remarks="员工编号"/>
+            <column name="uum_org_staff_dept_dept_id" type="varchar(20)" remarks="部门编号"/>
+            <column name="uum_org_staff_dept_create_time" type="date" remarks="信息创建时间"/>
+            <column name="uum_org_staff_dept_update_time" type="date" remarks="信息更新时间"/>
+        </createTable>
+
+        <createTable tableName="uum_org_staff_job" remarks="HR员工与岗位关系表">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="uum_org_staff_job_uuid" type="varchar(50)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="uum_org_staff_job_staff_id" type="varchar(20)" remarks="员工编号"/>
+            <column name="uum_org_staff_job_job_id" type="varchar(20)" remarks="岗位编号"/>
+            <column name="uum_org_staff_job_create_time" type="date" remarks="信息创建时间"/>
+            <column name="uum_org_staff_job_update_time" type="date" remarks="信息更新时间"/>
+        </createTable>
+
+        <createTable tableName="uum_sys_user" remarks="系统用户信息表">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="uum_sys_user_uuid" type="varchar(50)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="uum_sys_user_id" type="varchar(20)" remarks="系统用户标识"/>
+            <column name="uum_sys_user_displayname" type="varchar(20)" remarks="系统用户展示名称"/>
+            <column name="uum_sys_user_user_info_json" type="clob" remarks="用户其他信息存储用json的方式进行存储"/>
+            <column name="uum_sys_user_create_time" type="date" remarks="信息创建时间"/>
+            <column name="uum_sys_user_update_time" type="date" remarks="信息更新时间"/>
+        </createTable>
+
+    </changeSet>
+</databaseChangeLog>

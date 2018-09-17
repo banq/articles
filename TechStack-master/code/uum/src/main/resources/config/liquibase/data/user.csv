@@ -1,0 +1,12 @@
+id;uid;user_id;user_name;email;type
+1;a9lguamciu29opashy1s;av001;John;john@example.com;INTERNAL
+2;h0ldihgaitiaxjjhgm5a;av002;Stev;stev@example.com;EXTERNAL
+3;h0ldihgaiti13jjhgm5a;av003;Peter;peter@example.com;INTERNAL
+4;h0ldihgaiti23jjhgm5a;av004;Tom;tom@example.com;INTERNAL
+5;h0ldihgaiti33jjhgm5a;av005;Jack;jack@example.com;INTERNAL
+6;h0ldihgaiti43jjhgm5a;av006;Jackson;jackson@example.com;EXTERNAL
+7;h0ldihgaiti53jjhgm5a;av007;Mike;mike@example.com;EXTERNAL
+8;h0ldihgaiti63jjhgm5a;av008;Susen;susen@example.com;INTERNAL
+9;h0ldihgaiti73jjhgm5a;av009;Smith;smith@example.com;INTERNAL
+10;h0ldihgai2i03jjhgm5a;av010;Farer;farer@example.com;INTERNAL
+11;h0ldihqaiti03jjhgm5a;av011;Tim;tim@example.com;EXTERNAL
