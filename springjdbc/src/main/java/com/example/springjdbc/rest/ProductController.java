@@ -11,9 +11,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
 @RestController
 public class ProductController {
 	@Autowired
@@ -35,17 +32,5 @@ public class ProductController {
 		return productService.getProduct(productId);
 	}
 
-	@GetMapping("/products")
-	public Collection<Product> getProducts() {
-		Collection<Product> cltn = new ArrayList();
-		Iterable<Product> ps = productService.getProducts();
-		for (Product customer : ps)
-			cltn.add(customer);
-		return cltn;
-	}
 
-	@GetMapping("/products/count")
-	public long getProductCount() {
-		return productService.getCount();
-	}
 }

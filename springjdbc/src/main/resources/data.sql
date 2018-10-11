@@ -1,0 +1,1 @@
+INSERT INTO PRODUCT VALUES (1, 'James');

@@ -1,8 +1,5 @@
 
-create table PRODUCT
-(
-  id   VARCHAR2(255 CHAR) not null,
-  name VARCHAR2(255 CHAR)
+CREATE TABLE PRODUCT (
+  id   INTEGER IDENTITY PRIMARY KEY,
+  name VARCHAR(80)
 );
-alter table PRODUCT
-  add primary key (ID);

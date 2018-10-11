@@ -14,7 +14,7 @@ public class ProductServiceImpl implements ProductService {
 
 
 	public Product getProduct(String productId) {
-		return productRepo.findById(productId).orElse(new Product());
+		return productRepo.findById(Integer.parseInt(productId));
 	}
 
 
@@ -23,16 +23,4 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 
-	public void deleteProduct(String productId) {
-		Product product = getProduct(productId);
-		productRepo.delete(product);
-	}
-
-	public Iterable<Product> getProducts() {
-		return productRepo.findAll();
-	}
-
-	public long getCount() {
-		return productRepo.count();
-	}
 }

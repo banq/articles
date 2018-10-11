@@ -1,5 +1,6 @@
 package com.example.springjdbc.domain;
 
+import org.springframework.data.annotation.Id;
 
 /**
  * @author banq
@@ -7,23 +8,18 @@ package com.example.springjdbc.domain;
  * @created 09-10��-2018 11:24:12
  */
 
-//@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Product {
-	@org.springframework.data.annotation.Id
-	private String Id;
+	@Id
+	private Integer id;
 	private String name;
 
 
-	public Product() {
-
+	public Integer getId() {
+		return id;
 	}
 
-	public String getId() {
-		return Id;
-	}
-
-	public void setId(String id) {
-		Id = id;
+	public void setId(Integer id) {
+		this.id = id;
 	}
 
 	public String getName() {
@@ -34,8 +30,5 @@ public class Product {
 		this.name = name;
 	}
 
-	public void finalize() throws Throwable {
-
-	}
 
 }

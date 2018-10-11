@@ -20,13 +20,5 @@ public interface ProductService {
 	 */
 	public void createProduct(Product product);
 
-	/**
-	 * @param productId
-	 */
-	public void deleteProduct(String productId);
-
-	Iterable<Product> getProducts();
-
-	public long getCount();
 
 }
