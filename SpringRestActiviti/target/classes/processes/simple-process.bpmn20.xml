@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+	xmlns:activiti="http://activiti.org/bpmn" targetNamespace="Examples">
+
+	<process id="simpleProcess" name="Simple Process">
+		<startEvent id="theStart" />
+		<sequenceFlow sourceRef="theStart" targetRef="theTask" />
+
+		<userTask id="theTask" name="Task" activiti:assignee="${person}">
+			<documentation>
+				Do the task.
+			</documentation>
+		</userTask>
+
+		<sequenceFlow sourceRef="theTask" targetRef="theEnd" />
+		<endEvent id="theEnd" />
+	</process>
+
+</definitions>

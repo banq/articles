@@ -17,7 +17,9 @@ public class ActivitiController {
 
 	@Autowired
 	private ActivitiService activitiService;
-	
+
+	@RequestMapping(value="/start", method= RequestMethod.GET, produces=MediaType
+			.APPLICATION_JSON_VALUE)
 	public void startProcessInstance() {
 		activitiService.startProcess();
 	}
